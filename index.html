@@ -45,8 +45,16 @@
         <h2>Meu primeiro post</h2>
         <p class="artigo-autor">Por: Rhyan Koch</p>
         <p>Boas-vindas aou meu novo blog! Aqui vou compartilha dicas de programacao e curiosidades da area de programacao</p>
-
+        <button>❤️ <span>0</span>​</button>
         </div>
     </main>
     </body>
+    <script>
+        const botao = document.querySelector("button");
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado(){
+            console.log("fui clicado");
+        }
+    </script>
 </html>
